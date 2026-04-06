@@ -393,7 +393,7 @@ export default function Booking() {
                       <button 
                         onClick={() => {
                           const message = `Halo Prime Wheels, saya ingin reservasi kendaraan:\n\nMobil: ${selectedCarData.name}\nLayanan: ${serviceType}\nTanggal: ${startDate}\nWaktu: ${pickupTime}\nLokasi: ${pickupLocation}\nDurasi: ${duration}\n\nMohon info ketersediaan.`;
-                          window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(message)}`, '_blank');
+                          window.open(`https://wa.me/6283167987800?text=${encodeURIComponent(message)}`, '_blank');
                         }}
                         className="bg-[#25D366] text-white px-8 py-4 rounded-sm font-bold flex items-center gap-3 hover:brightness-95 transition-all shadow-lg shadow-green-500/20 active:scale-95"
                       >

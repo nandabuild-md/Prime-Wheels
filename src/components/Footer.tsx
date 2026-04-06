@@ -50,14 +50,17 @@ export default function Footer() {
         </div>
       </div>
       
-      <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 max-w-screen-2xl mx-auto">
-        <p className="text-slate-600 text-xs">
-          © 2024 Prime Wheels. Technical Precision Editorial.
-        </p>
-        <div className="flex gap-8 text-xs text-slate-600 font-medium uppercase tracking-widest">
-          <span>Premium Car Rental Service</span>
-          <span>Verified Transport Provider</span>
+      <div className="mt-20 pt-8 border-t border-white/5 flex flex-col items-center gap-4 max-w-screen-2xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6 w-full">
+          <p className="text-slate-600 text-xs">
+            © 2024 Prime Wheels. Technical Precision Editorial.
+          </p>
+          <div className="flex gap-8 text-xs text-slate-600 font-medium uppercase tracking-widest">
+            <span>Premium Car Rental Service</span>
+            <span>Verified Transport Provider</span>
+          </div>
         </div>
+        <p className="text-slate-700 text-xs">Website oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-slate-500 hover:text-electric transition-colors underline">Astrina Maysaroh — Jasa Pembuatan Website Profesional</a></p>
       </div>
     </footer>
   );
