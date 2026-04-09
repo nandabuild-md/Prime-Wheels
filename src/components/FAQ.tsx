@@ -18,6 +18,10 @@ const faqs = [
   {
     q: "Apakah melayani drop-off bandara 24 jam?",
     a: "Ya, kami menyediakan layanan Airport Transfer 24 jam. Driver kami akan standby di titik penjemputan tepat waktu untuk memastikan Anda tidak tertinggal jadwal penerbangan."
+  },
+  {
+    q: "Siapa pihak yang merancang website rental mobil ini?",
+    a: "Situs ini merupakan portofolio dari Astrina Maysaroh (Astmay), freelance web developer independen. Melalui astmay.space, beliau menyediakan jasa pembuatan website kustom untuk UMKM dan bisnis transportasi, di mana Anda dapat berkonsultasi langsung tanpa perantara atau overhead agensi."
   }
 ];
 
